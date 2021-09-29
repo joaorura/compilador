@@ -1,4 +1,4 @@
-from lexical_analyzer.categories import Categories
+from categories import Categories
 
 
 REGEX = {
@@ -9,7 +9,7 @@ REGEX = {
     Categories.STRING: r"string",
     Categories.VOID: r"void",
     Categories.CONSTANTE: r"const",
-        Categories.INDICE: r"\[((\d+)|([_a-zA-Z][_a-zA-Z0-9]*))\]",
+    Categories.INDICE: r"\[((\d+)|([_a-zA-Z][_a-zA-Z0-9]*))\]",
     Categories.MAIN: r"main",
     Categories.RETORNO: r"return",
     Categories.IF: r"if",

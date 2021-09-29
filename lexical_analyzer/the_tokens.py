@@ -1,4 +1,4 @@
-from lexical_analyzer.categories import Categories
+from categories import Categories
 
 
 class Token:

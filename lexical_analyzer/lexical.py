@@ -1,10 +1,10 @@
 import re
 from pathlib import Path
 
-from lexical_analyzer.read import Read
-from lexical_analyzer.the_tokens import Token
-from lexical_analyzer.categories import Categories
-from lexical_analyzer.regex import REGEX
+from read import Read
+from the_tokens import Token
+from categories import Categories
+from regex import REGEX
 
 
 class Lexical:
