@@ -21,6 +21,6 @@ class Token:
         return self._lexeme
 
     def __str__(self) -> str:
-        return f'[{"{:04d}".format(self._line)}, {"{:04d}".format(self._col)}] ' \
+        return f'{" "*14}[{"{:04d}".format(self._line)}, {"{:04d}".format(self._col)}] ' \
                + f'({"{:04d}".format(self._category.value)}, {"{:20s}".format(self._category.name)})' \
                  + f' {"{"}{self._lexeme}{"}"}'

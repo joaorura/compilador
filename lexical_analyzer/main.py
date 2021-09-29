@@ -12,6 +12,8 @@ def main():
         print(result)
         result = lexical.get_token()
 
+    print('\n\n')
+
 
 if __name__ == '__main__':
     main()

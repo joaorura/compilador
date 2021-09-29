@@ -65,7 +65,7 @@ class Read:
 
         self._line += 1
 
-        print("\n\n{:04d}  {:s}".format(self._line, result))
+        print("\n\n{:d}  {:s}\n".format(self._line, result))
 
         self._cols = 1
         self._actual_lexeme = 0

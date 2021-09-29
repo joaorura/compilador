@@ -1,6 +1,5 @@
 from categories import Categories
 
-
 REGEX = {
     Categories.BOOL: r"bool",
     Categories.CHAR: r"char",
@@ -9,7 +8,6 @@ REGEX = {
     Categories.STRING: r"string",
     Categories.VOID: r"void",
     Categories.CONSTANTE: r"const",
-    Categories.INDICE: r"\[((\d+)|([_a-zA-Z][_a-zA-Z0-9]*))\]",
     Categories.MAIN: r"main",
     Categories.RETORNO: r"return",
     Categories.IF: r"if",
@@ -22,6 +20,8 @@ REGEX = {
     Categories.L_BOOL: r"true|false",
     Categories.VIRGULA: r"\,",
     Categories.P_VIRG: r";",
+    Categories.A_COLCHETE: r"\[",
+    Categories.F_COLCHETE: r"\]",
     Categories.A_CHAVE: r"\{",
     Categories.F_CHAVE: r"\}",
     Categories.A_PARENT: r"\(",
@@ -39,13 +39,11 @@ REGEX = {
     Categories.OP_IGUAL: r"=",
     Categories.OP_ADIC: r"\+",
     Categories.OP_SUB: r"-",
-    Categories.ARR_UNDM: r"\[\]",
     Categories.DEREF_MULT: r"\*",
     Categories.OP_DIV: r"/",
     Categories.OP_RESTO: r"%",
     Categories.OP_NEG: r"!",
-    Categories.IDENTIFI: r"[_a-zA-Z][_a-zA-Z0-9]*",
+    Categories.IDENTIFI: r"_{0,1}[A-Za-z0-9_]+",
     Categories.DOIS_PONT: r":",
     Categories.OP_REF: r"&",
 }
-
