@@ -1,6 +1,6 @@
 # Compilador-Academico
 
-Compilador para projeto da disciplina Compiladores 2020.1 - UFAL - 2021
+Compilador para projeto da disciplina Compiladores 2020.2 - UFAL - 2021
 
 ## Arquivos
 
